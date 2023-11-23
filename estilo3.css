@@ -1,0 +1,192 @@
+
+
+#banner{
+
+	height: 300px;
+	width: 100%;
+	background-color: transparent;
+	background-image:url(https://i.postimg.cc/bN0Chs6Q/tea.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+
+}
+
+
+
+
+
+
+
+/* Este selector afectas las imagenes de la pagina */
+
+*{margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;}
+
+
+/*Este selector afecta el cuerpo de la pagina */
+
+.body
+{background-image: url(https://i.postimg.cc/9QMBMqvT/fondo2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 auto;}
+
+/*Este selector afecta la barra menu */
+
+.menu
+{ list-style-type:none;
+overflow:hidden;
+background-color: #3C474B;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}							
+
+
+/* Este selector afecta la alineacio de las opciones de menu */
+
+li { float:left; }
+
+
+
+/* Este selector afecta el menu:
+display: block que elemento sea como un bloque 
+color: el color de la tipografia del menu
+text-align: la alineacion del texto del boton
+padding: es una propiedad o relleno que sea crea alrededor del contenidos
+de un elemento dentro de los bordes definidos
+text-decoration: establece la decoracion que se aplica al texto de un elemento.
+
+*/ 
+
+li a{ display: 10x 20x ;
+color: white;
+text-align: center;
+padding: 1px 1px;
+text-decoration: none;}
+
+/*Este selector afecta los cuadros de las opciones del menu */
+
+li a:hover{
+	background-color: #4F7CAC;
+	color: whitesmoke;
+}
+
+
+
+/* Este selector afecta el parrafo */
+
+.intro {
+	color: black;
+	font-family:'Montserrat', thing;
+	font-size: 20px; 
+	margin-left: 257px;
+    margin-right: 250px;
+    text-align: left;
+}
+
+.fin {
+	color: black;
+	font-family:'Montserrat', thing;
+	font-size: 20px; 
+	margin-left: 257px;
+    margin-right: 250px;
+    text-align: left;
+}
+
+.parrafo1 {
+	color: black;
+	font-family:'Montserrat', regular;
+	font-size: 17px; 
+	margin-left: 100px;
+    margin-right: 500px;
+    text-align: left;
+}
+
+.parrafo2 {
+	color: black;
+	font-family:'Montserrat', semi-bold;
+	font-size: 17px; 
+	margin-left: 500px;
+    margin-right: 275px;
+    text-align: center center;
+}
+
+.h1 {
+color: #4F7CAC;
+font-family: Berlin Sans FB Demi;
+font-size: 50px; sans-serif;
+
+}
+
+.titulo {
+height: 200px;
+width: 100%;
+background-image:url(https://i.postimg.cc/hGBxq0ZY/titulo.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.frase {
+height: 500px;
+width: 100%;
+background-image:url(https://iili.io/JqS2BUu.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+.creditos {
+color: black;
+	font-family:  'Montserrat', sans-serif;
+	font-size: 10px; 
+	margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;}
+
+/*imagenes*/
+    .imagen1 {
+height: 300px;
+width: 300px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/PqSnrLNp/asperger.jpg);
+background-repeat: no-repeat;
+position: absolute;
+top: 650px;
+Right: 200px;
+}
+
+.imagen2 {
+height: 300px;
+width: 300px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/mgvcRNmD/puntas.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 900px;
+left: 275px;
+}
+
+.imagen3 {
+height: 300px;
+width: 250px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/02s1gtRj/moderado.jpg);
+background-repeat: no-repeat;
+position: absolute;
+top: 1100px;
+right: 250px;
+}
+
+.imagen4 {
+height: 300px;
+width: 300px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/RhgH5gCY/profundo.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 1325px;
+right: 900px;
+}

@@ -1,0 +1,106 @@
+
+
+#banner{
+
+	height: 350px;
+	width: 100%;
+	background-color: none;
+	background-image:url(https://i.postimg.cc/cHQwPScr/banner.png);
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+/* Este selector afectas las imagenes de la pagina */
+
+*{margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;}
+
+
+/*Este selector afecta el cuerpo de la pagina */
+
+.body {
+background-image: url(https://i.postimg.cc/02Z4wdxz/fondo-Mesa-de-trabajo-1.png);
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 auto;}
+
+/*Este selector afecta la barra menu */
+
+.menu
+{ list-style-type:none;
+overflow:hidden;
+background-color: #007EFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}							
+
+
+/* Este selector afecta la alineacion de las opciones de menu */
+
+li { float:right; }
+
+
+
+/*meni*/
+
+li a{ display: 10x 20x ;
+color: white;
+text-align: center;
+padding: 1px 1px;
+text-decoration: none;}
+
+/*Este selector afecta los cuadros de opciones */
+
+li a:hover{
+	background-color: #4F7CAC;
+	color: whitesmoke;
+}
+
+/* Este selector afecta el parrafo */
+
+.p {
+	color: black;
+	font-family:'Montserrat', semi-bold;
+	font-size: 25px; 
+	margin-left: 275px;
+    margin-right: 275px;
+    text-align: center;
+}
+.h1 {
+color: #4F7CAC;
+font-family: Berlin Sans FB Demi;
+font-size: 50px; sans-serif;
+
+}
+
+.titulo {
+height: 200px;
+width: 100%;
+background-image:url(https://i.postimg.cc/4xfr24sF/titulo.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.autism {
+height: 600px;
+width: 100%;
+background-image:url(https://i.postimg.cc/LsBZTMBD/frase.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+.creditos {
+color: black;
+	font-family:  'Montserrat', sans-serif;
+	font-size: 10px; 
+	margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;}

@@ -1,0 +1,133 @@
+
+
+#banner{
+
+	height: 320px;
+	width: 100%;
+	background-color: transparent;
+	background-image:url(https://i.postimg.cc/TPvR8FGF/historia.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+
+}
+
+
+
+
+
+
+
+/* Este selector afectas las imagenes de la pagina */
+
+*{margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;}
+
+
+/*Este selector afecta el cuerpo de la pagina */
+
+.body
+{background-image: url(https://i.postimg.cc/9QMBMqvT/fondo2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 auto;}
+
+/*Este selector afecta la barra menu */
+
+.menu
+{ list-style-type:none;
+overflow:hidden;
+background-color: #007EFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}							
+
+
+/* Este selector afecta la alineacio de las opciones de menu */
+
+li { float:left; }
+
+
+
+/* Este selector afecta el menu:
+display: block que elemento sea como un bloque 
+color: el color de la tipografia del menu
+text-align: la alineacion del texto del boton
+padding: es una propiedad o relleno que sea crea alrededor del contenidos
+de un elemento dentro de los bordes definidos
+text-decoration: establece la decoracion que se aplica al texto de un elemento.
+
+*/ 
+
+li a{ display: 10x 20x ;
+color: white;
+text-align: center;
+padding: 1px 1px;
+text-decoration: none;}
+
+/*Este selector afecta los cuadros de las opciones del menu */
+
+li a:hover{
+	background-color: #4F7CAC;
+	color: whitesmoke;
+}
+
+/* Este selector afecta el parrafo */
+
+.p {
+	color: black;
+	font-family:'Montserrat', semi-bold;
+	font-size: 25px; 
+	margin-left: 275px;
+    margin-right: 275px;
+    text-align: left;
+}
+.h1 {
+color: #4F7CAC;
+font-family: Berlin Sans FB Demi;
+font-size: 50px; sans-serif;
+
+}
+
+.titulo {
+height: 200px;
+width: 100%;
+background-image:url(https://i.postimg.cc/hGBxq0ZY/titulo.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+.creditos {
+color: black;
+	font-family:  'Montserrat', sans-serif;
+	font-size: 10px; 
+	margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;}
+
+/*IMAGENES*/
+
+    .imagen {
+height: 300px;
+width: 300px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/fyxV7BqG/imagen-1.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 600px;
+left: 50px;
+}
+
+.imagen2 {
+height: 100px;
+width: 100px;
+background-color: transparent;
+background-image:url(https://i.postimg.cc/RFp6VW6Y/imagen-2.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 950px;
+right: 0px;
+}
